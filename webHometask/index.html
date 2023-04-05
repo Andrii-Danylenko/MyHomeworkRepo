@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c5a537583.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Web hw</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div id="logo" class="logo">
+    </div>
+    <div class="someButtons">
+        <a href="#" class="text">Product</a>
+        <a href="#" class="text">About</a>
+        <a href="#" class="text">Contects</a>
+    </div>
+    <div>
+        <a href="#" class="bigBlackButton">Download Now</a>
+    </div>
+</nav>
+
+<section class="main mainContainer">
+    <div class="bigText">
+        <h1>Fast and powerful, just like your work</h1>
+    </div>
+    <div class="smallText">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. </p>
+    </div>
+</section>
+
+<section class="News mainContainer">
+    <div class="header">
+        <h1 class="header-text">Nulla commodo aliqua aliqua ut</h1>
+        <div class="moreNews">
+            <div class="news">
+                <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+                <a href="#" class="read-more">Read more<i class="arrow fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="news">
+                <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+                <a href="#" class="read-more">Read more<i class="arrow fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="somePhoto">
+        <i class="fa-solid fa-image"></i>
+    </div>
+</section>
+
+<section class="Jobs mainContainer">
+    <div class="Text">
+        <div class="header">
+            <p>Nulla ut ea</p>
+            <div class="sub-header">
+                <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
+                    ullamco dolor proident. Exercitation velit ea incididunt</p>
+            </div>
+        </div>
+        <div class="jobs-list">
+            <div class="col">
+                <div class="job">
+                    <span>Graphic Design</span>
+                </div>
+                <div class="job">
+                    <span>UX Design</span>
+                </div>
+                <div class="job">
+                    <span>Prototyping</span>
+                </div>
+                <div class="job">
+                    <span>Webflow</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="job">
+                    <span>Branding</span>
+                </div>
+                <div class="job">
+                    <span>Coding</span>
+                </div>
+                <div class="job">
+                    <span>Back-End</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Showcase mainContainer">
+    <div class="header">
+        <p>Where teams design together</p>
+        <div class="sub-header">
+            <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        </div>
+    </div>
+    <div class="photos-showcase">
+        <div class="photo-showcase">
+            <i class="fa-solid fa-image"></i>
+        </div>
+        <div class="photo-showcase">
+            <i class="fa-solid fa-image"></i>
+        </div>
+        <div class="photo-showcase">
+            <i class="fa-solid fa-image"></i>
+        </div>
+    </div>
+</section>
+
+<section class="Reviews mainContainer">
+    <div class="header">
+        <p>Nulla commodo aliqua aliqua ut</p>
+    </div>
+    <div class="Reviews-people">
+        <div class="review">
+            <h3 class="bigText">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.
+                Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.</h3>
+            <div>
+                <h3 class="name">Ralph Richards</h3>
+                <h3 class="pos">UX Designer</h3>
+            </div>
+        </div>
+        <div class="review">
+            <h3 class="bigText">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.
+                Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.</h3>
+            <div>
+                <h3 class="name">Angel Wilson</h3>
+                <h3 class="pos">UX Designer</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mainContainer">
+    <div class="logo">
+        <img src="styles/images/logo.png" alt="logo">
+    </div>
+    <div class="socmedia">
+        <div class="name">
+            <p>cillum incididunt</p>
+        </div>
+        <div class="media">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="cr">
+            <p>Nostrud aliquip laboris © 2020 Wirefigma</p>
+        </div>
+    </div>
+</footer>
+<script>
+    /*Пояснения к скрипту*/
+    const btn = document.querySelector('#logo'); /*Тут я выбрал, что взять за кнопку для переключения. Сначала хотел кнопку сделать, а потом вспомнил про лого*/
+    const body = document.querySelector('body'); /*Тут я просто выбрал, что боди это body*/
+    const text = document.querySelectorAll('h1, h2, p, a, span'); /*Тут я выбрал все селекторы, которые будут изменяться*/
+
+    btn.addEventListener('click', () => { /*Тут сделал лямбда-выражение на клик. Не знаю, насколько хорошая идея - привык к другому языку*/
+        if (body.classList.contains('dark')) { /*Самое интересное: если в классе есть dark, то я его удаляю и для каждого элемента применяю черный цвет*/
+            body.classList.remove('dark');
+            text.forEach(element => {
+                element.style.color = '#2B2B2B';
+            });
+        } else {
+            body.classList.add('dark'); /*Тут напротив: если в классе нет dark, то я его добавляю и для каждого элемента применяю белый цвет*/
+            text.forEach(element => {
+                element.style.color = '#FFFFFF';
+            });
+        }
+    });
+</script>
+</body>
+</html>
