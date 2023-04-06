@@ -42,7 +42,7 @@ body {
 
 .navbar .bigBlackButton{
   text-decoration: none;
-  color: #EDEDED;
+  color: #EDEDED !important;
   background-color: #423F35;
   padding: 11px 15px;
   border-radius: 5px;
